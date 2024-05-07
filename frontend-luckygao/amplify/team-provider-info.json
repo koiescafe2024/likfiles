@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dotbet-dev-110004-authRole",
+      "UnauthRoleArn": "arn:aws:iam::274091276917:role/amplify-dotbet-dev-110004-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::274091276917:role/amplify-dotbet-dev-110004-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-dotbet-dev-110004-deployment",
+      "UnauthRoleName": "amplify-dotbet-dev-110004-unauthRole",
+      "StackName": "amplify-dotbet-dev-110004",
+      "StackId": "arn:aws:cloudformation:us-east-2:274091276917:stack/amplify-dotbet-dev-110004/61d9e240-5d9a-11ee-9504-065108ee6619",
+      "AmplifyAppId": "d2b4lr7bh4p10i"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2b4lr7bh4p10i",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
