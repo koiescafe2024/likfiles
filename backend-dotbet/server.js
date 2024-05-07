@@ -72,7 +72,7 @@ app.use("/bandai/api/log", require("./routes/bandai/log"));
 //   .catch(err => console.error('Failed to connect to MongoDB', err));
 mongoose
     .connect(
-        `mongodb+srv://smilesun0506:${process.env.MONGODB_PASSWORD}@dotbet.tzyhwct.mongodb.net/dotbet?retryWrites=true&w=majority`
+        `mongodb://mongo:45ab4ba57cbed2832c34@dotbet_dotbet-db:27017`
     )
     .then(() => console.log("Connected to MongoDB"))
     .catch((err) => console.error("Failed to connect to MongoDB", err));
